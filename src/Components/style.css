@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  height: 5000px;
+}
+
+.scrollTop {
+  position: fixed;
+    right: 7%;
+    border: 1px solid transparent;
+    bottom: 10%;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    cursor: pointer;
+    animation: fadeIn 0.3s;
+    transition: opacity 0.4s;
+    opacity: 0.5;
+    font-size: 2rem;
+    border-radius: 10px;
+    padding: .2rem;
+    background-color: gray;
+    color: #fefefe;
+    transition: opacity .75s;
+}
+
+.scrollTop:hover{
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0 }
+  100% { opacity: 0.5 }
+}
